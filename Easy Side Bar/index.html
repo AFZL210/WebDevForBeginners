@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SideBar</title>
+
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+}
+
+.tophead{
+    width: 100%;
+    height: 65px;
+    background: #1976d2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    color: white;
+    font-size: 2.1rem;
+    padding-left: 50px;
+}
+
+.menulines{
+    font-size: 30px;
+    cursor: pointer;
+    margin-right: 50px;
+    color: white;
+}
+
+.mainpart{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.sidenav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: #272634;
+    overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+.sidenav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    padding: 30px 0 30px 20px;
+}
+
+.sidenav a:hover{
+    color: rgba(255,255,255,0.7);
+}
+
+.closebutton{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 40px!important;
+}
+
+
+
+    </style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" />
+</head>
+<body>
+ <header>
+     <div class="tophead">
+         <div class="logo">
+             AfzalKhan
+         </div>
+         <div>
+             <span onclick="openNav()" class="menulines"> &#9776; </span>
+         </div>
+     </div>
+ </header>
+
+ <div class="sidenav" id="mySidenav">
+     <a href="javascript:void(0)" class="closebutton" onclick="closenav()"> &times;</a>
+ <a href="#"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
+ <a href="#"><i class="fa fa-server" aria-hidden="true"></i>Services</a>
+ <a href="#"><i class="fa fa-google-wallet" aria-hidden="true"></i>Gallery</a>
+ <a href="#"><i class="fa fa-compress" aria-hidden="true"></i>Contact</a>
+    </div>
+
+    <section class="mainpart">
+        <h2>Animated SideBar</h2>
+    </section>
+
+    <script>
+        const openNav = () => {
+          document.getElementById('mySidenav').style.width="250px"
+        }
+
+        const closenav = () => {
+            document.getElementById('mySidenav').style.width="0"
+        }
+    </script>
+</body>
+</html>
