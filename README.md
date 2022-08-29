@@ -5,7 +5,7 @@
 ![IMG](https://raw.githubusercontent.com/AFZL210/WebDevForBeginners/main/media/calc.JPG)
 
 *** Fetch API ***
-![IMG] (https://raw.githubusercontent.com/AFZL210/WebDevForBeginners/main/media/quote.JPG)
+![IMG](https://raw.githubusercontent.com/AFZL210/WebDevForBeginners/main/media/quote.JPG)
 
 *** LANDING PAGE - 1 ***
 ![IMG](https://raw.githubusercontent.com/AFZL210/WebDevForBeginners/main/media/nike.JPG)
