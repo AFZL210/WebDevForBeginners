@@ -24,14 +24,13 @@ function getDatas() {
     },1000)
 }
 
-function createData(newData,callback) {
+function createData(newData) {
     setTimeout(() => {
         datas.push(newData);
-        callback()
     },2000)
 }
 
 newUser = {name:"vivek",prof:"student",age:20};
 
-// getDatas()
-createData(newUser,getDatas)
+getDatas()
+createData(newUser)
