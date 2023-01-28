@@ -13,6 +13,9 @@
 
 *** LANDING PAGE - 2 ***
 ![IMG](https://raw.githubusercontent.com/AFZL210/WebDevForBeginners/main/media/play.JPG)
+
+*** LANDING PAGE - 3 ***
+![IMG](https://raw.githubusercontent.com/AFZL210/WebDevForBeginners/main/media/1.PNG)
   
 ## Authors
 
