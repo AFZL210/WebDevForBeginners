@@ -1,0 +1,66 @@
+.navbar{
+    width: 100%;
+    height: 70px;
+    background-color: #750b0b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.logo{
+    width: 20px;
+    margin-right: 10px;
+}
+
+
+.brand-info{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.log-in{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.login{
+    margin-right: 10px
+}
+
+.user-icon{
+    width: 22px;
+}
+
+.nav-links ul{
+    display: flex;
+}
+
+.nav-links ul li{
+    list-style: none;
+}
+
+
+.brad-text{
+    margin-left: 10px;
+}
+
+.nav-links ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.nav-links ul li a:hover{
+    color: gray;
+}
+
+.login{
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+}

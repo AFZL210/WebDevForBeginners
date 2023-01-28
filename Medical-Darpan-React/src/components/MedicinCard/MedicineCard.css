@@ -1,0 +1,73 @@
+.card-container{
+    width: 250px;
+    height: 350px;
+    background-color: #750b0b;
+    margin: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.card-content{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 342px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.medicine-img{
+    margin-top: 4px;
+    width: 98%;
+}
+
+.send-icon{
+    position: relative;
+    top: 3px;
+}
+
+.medicine-name{
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.medicine-price-info{
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    color: #750b0b;
+    text-align: center;
+}
+
+.medicine-price-info p{
+    font-size: 12px;
+}
+
+.price{
+    margin-right: 5px;
+}
+
+.company-info{
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 12px;
+}
+
+.location{
+    font-size: 8px;
+    font-weight: 500;
+    margin-top: 3px;
+}
+
+.contact-btn{
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    color: #00a69a;
+    border-top: 1px solid black;
+    cursor: pointer;
+}

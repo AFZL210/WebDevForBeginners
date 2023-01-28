@@ -1,0 +1,2 @@
+green : #00a69a
+red : #750b0b
