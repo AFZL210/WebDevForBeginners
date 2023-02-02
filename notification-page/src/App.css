@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cont{
+  width: 100vw;
+  height: 100vh;
+}
+
+@media only screen and (max-width : 600px) {
+  #notification-container{
+    width: 100vw;
+  }
+}
