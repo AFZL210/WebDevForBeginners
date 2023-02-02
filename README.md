@@ -16,6 +16,9 @@
 
 *** LANDING PAGE - 3 ***
 ![IMG](https://raw.githubusercontent.com/AFZL210/WebDevForBeginners/main/media/1.PNG)
+
+*** Notification Box ***
+![IMG](https://res.cloudinary.com/primeflix/image/upload/v1675360561/desktop_lthyro.png)
   
 ## Authors
 
