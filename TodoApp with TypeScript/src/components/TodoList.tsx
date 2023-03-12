@@ -11,7 +11,7 @@ const TodoList: React.FC<Props> = ({ todos, setTodos }) => {
   return (
     <div className='todos'>
       {todos.map(todo => (
-        <TodoCard todo={todo} setTodos={setTodos} />
+        <TodoCard todo={todo} todos={todos} setTodos={setTodos} key={todo.id}/>
       ))}
     </div>
   )

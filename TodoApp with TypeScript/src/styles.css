@@ -40,3 +40,29 @@
     transform: scale(0.8);
     box-shadow: 0 0 5px black;
 }
+
+.todos {
+    padding-top: 2.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    justify-content: space-evenly;
+    width: 90%;
+    flex-wrap: wrap;
+}
+
+.todos__single {
+    width: 29.5%;
+    display: flex;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: antiquewhite;
+}
+
+.todos__single--text {
+    flex: 1;
+}
+
+.icon {
+    cursor: pointer;
+}
