@@ -19,7 +19,14 @@
 
 *** Notification Box ***
 ![IMG](https://res.cloudinary.com/primeflix/image/upload/v1675360561/desktop_lthyro.png)
-  
+
+*** Todo App (TypeScript) ***
+
+
+https://user-images.githubusercontent.com/79896602/224540698-9af680cb-7476-4d77-8f1c-c317b08a150b.mp4
+
+
+
 ## Authors
 
 - [@afzl210](https://github.com/AFZL210)
